@@ -1,0 +1,56 @@
+/*Global Styles
+---------------------------------*/
+body {
+    color:blueviolet
+}
+img {
+        width: 300px;
+}
+
+a {
+color:black
+
+}
+a:hover {
+    text-decoration: none;
+}
+
+/*Profile
+---------------------------------*/
+header {
+    background: rgb(198, 226, 255);
+}
+
+/*Projects
+---------------------------------*/
+.Projects {
+    background: rgb(255, 213, 255);
+}
+.Projects a {
+    color: whitesmoke;
+    background: black;
+    padding: 8px;
+    border-radius: 4px;
+}
+.Projects a:hover {
+    background: rgb(0, 0, 0,80%);
+}
+
+/*Work Experience
+---------------------------------*/
+.work-experience {
+    background: rgb(255, 255, 214);
+}
+
+/*Education
+---------------------------------*/
+
+
+
+/*Contact Info
+---------------------------------*/
+footer {
+    background: rgb(204, 255, 202);
+}
+
+
