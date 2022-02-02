@@ -1,7 +1,21 @@
 /*Global Styles
 ---------------------------------*/
+html {box-sizing: border-box;
+}
+*, *:before,*:after {
+box-sizing: inherit;
+}
+
+
+
+
 body {
-    color:blueviolet
+    margin: 0;
+    padding: 0;
+    color:blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:15px;
+    line-height: 1.5;
 }
 img {
         width: 300px;
@@ -13,6 +27,31 @@ color:black
 }
 a:hover {
     text-decoration: none;
+}
+h1 {font-family: wedding script;
+    font-size: 100px;
+    line-height: 1;
+    text-shadow: 3px 3px 6px black;
+
+
+}
+h1, h2 { font-weight: 400;
+    margin: 0;
+
+}
+h2 {
+    font-family: fantasy;
+    margin: 0;
+    font-size: 42px;
+    
+
+}
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+
+
 }
 
 /*Profile
@@ -32,8 +71,29 @@ header {
     padding: 8px;
     border-radius: 4px;
 }
+
+.Project-item h3 {
+margin-top: 0;
+}
+.Projects .btn {
+    color:#F7FFF7;
+    background: #2F3061;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
 .Projects a:hover {
     background: rgb(0, 0, 0,80%);
+}
+.Project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #000000;
+    padding: 25px 0;
+}
+.Project-item img {
+    float: left;
+    margin-right: 20px;
 }
 
 /*Work Experience
